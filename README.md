@@ -1,2 +1,3 @@
 # Equipe-genesis
- cusro de front+back .NET
+ Curso de front+back .NET
+🚀🚀🚀
