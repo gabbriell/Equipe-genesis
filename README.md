@@ -1,6 +1,3 @@
-# Equipe-genesis
- Curso de front+back .NET
-🚀🚀🚀
 
 # 🚀 Projeto Super Frontend & Backend 🚀
 
