@@ -11,6 +11,7 @@ botao-enviar {
   width: 30px;
 }
 
+
 /* Style the header */
 header {
   background-color: rgb(60, 179, 113);
@@ -47,7 +48,7 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #f1f1f1;
+  background-color: #d1d0cf;
   padding: 10px;
 }
 
@@ -85,6 +86,19 @@ strong {
 li {
   font-size: 25px;
   font-family: "roboto";
+}
+
+div {
+  
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+}
+
+.imagem-contato{
+  width: 34%;
 }
 
 a {

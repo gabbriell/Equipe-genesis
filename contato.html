@@ -30,47 +30,60 @@
     <article>
       <h2 class="contato">Entre em contato.</h2>
       <hr>
+      <br>
       <p class="formulario">Para obter informações adicionais, por favor, preencha o formulário. Entraremos em contato o
         mais breve
         possível.</p>
-
-
-
-<fieldset>
-  <legend>Formulário de contato</legend>
-  <br>
-      <form action="sucesso.html" method="post">
-        <label for="name">Primeiro nome:</label><br>
-        <input type="text" id="name" name="name" required><br>
-
-        <label for="sobrenome">Sobrenome:</label><br>
-        <input type="text" id="sobrenome" name="sobrenome" required="required">
         <br>
-        <label for="sobrenome">Sobrenome:</label><br>
-        <input type="text" id="sobrenome" name="sobrenome" required="">
-        <br><br>
-        <label for="lista">Como conheceu nossa página:</label>
-        <select id="lista" name="lista">
-          <option value="---"> ----- </option>
-          <option value="Redes socias">Redes socias</option>
-          <option value="Telefone">Telefone</option>
-          <option value="Amigos">Amigos</option>
-          <option value="Outros">Outros</option>
-        </select>
-        <br><br>
-        <input type="submit" class="botao-enviar" value="Enviar &#128640;">
-      </form>
-      <br>
-</fieldset>
+      <fieldset>
+        <legend>Formulário de contato</legend>
+        <br>
+        <form action="sucesso.html" method="post">
+          <label for="name">* Primeiro nome:</label><br>
+          <input type="text" id="name" name="name" required>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="email"> Melhor E-mail: </label> 
+          <input type="email" id="emial" name="email"><br>
+          <label for="sobrenome">* Sobrenome:</label><br>
+          <input type="text" id="sobrenome" name="sobrenome" required="required">
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="telefone">* Whatsapp: 
+            <small>Formato: 21-99857-4190</small>
+          </label>
+          <input type="tel" id="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required>
+          <br>
+          <br>
+          <label for="lista">Como conheceu nossa página:</label>
+          <select id="lista" name="lista">
+            <option value="---"> ----- </option>
+            <option value="Redes socias">Redes socias</option>
+            <option value="Telefone">Telefone</option>
+            <option value="Amigos">Amigos</option>
+            <option value="Outros">Outros</option>
+          </select>
+          <br><br>
+          <label for="linkedin">* Deixe o link de seu linkedin: </label>
+          <input type="url" id="linkedin" required>
+          
+          <br><br>
+          <input type="submit" class="botao-enviar" value="Enviar &#128640;">
+        </form>
+        <br>
+      </fieldset>
+      <br><br><br>
+      <img class="imagem-contato" src="https://arriereboutique.fr/wp-content/uploads/2020/12/ss.jpg"
+        alt="Imagem com uma pessoa segurando o celular para fazer contato com alguem">
+      <div><strong>Bons Estudos !</strong></div>
+      <br><br>
     </article>
 
-  </section>
+    
 
+  </section>
 
   <footer>
     <p>© Gabriel Martins | 2024</p>
   </footer>
-
 
 </body>
 
