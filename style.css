@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
 }
 
 botao-enviar {
@@ -12,7 +13,7 @@ botao-enviar {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: rgb(60, 179, 113);
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -30,8 +31,9 @@ nav {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background: #ccc;
+  background: rgba(255, 166, 0, 0.356);
   padding: 20px;
+  box-shadow: 15px 1px 30px 1px #0c0c0c;
 }
 
 /* Style the list inside the menu */
@@ -51,10 +53,59 @@ article {
 
 /* Style the footer */
 footer {
-  background-color: #777;
-  padding: 10px;
+  background-color: rgb(60, 179, 113);
+  padding: 30px;
   text-align: center;
   color: white;
+}
+
+h1 {
+  font-size: 60px;
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px #0c0c0c;
+  font-family: "roboto";
+}
+
+h2 {
+  font-size: 25px;
+  color: rgb(32, 32, 32);
+  font-family: "roboto";
+}
+
+p {
+  font-size: 20px;
+  line-height: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+strong {
+  color: chocolate;
+}
+
+li {
+  font-size: 25px;
+  font-family: "roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  box-shadow: 3px 3px 10px 1px #0c0c0c;
+}
+
+p.formulario {
+  border-style: solid;
+  border-width: small;
+}
+
+h2.contato{
+  
+  border-left-style: solid;
+  border-right-style: solid;
+  padding-left: 3px;
+  margin-right: 85%;
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
@@ -62,5 +113,11 @@ footer {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  h2.contato{
+    margin-right: 200px;
   }
 }

@@ -13,7 +13,7 @@
 
 
   <header>
-    <h2> &#128195; Contato &#128195; </h2>
+    <h1> &#128195; Contato &#128195; </h1>
   </header>
 
   <section>
@@ -26,12 +26,18 @@
     </nav>
 
     <article>
-      <h1>Entre em contato.</h1>
+      <h2 class="contato">Entre em contato.</h2>
       <hr>
-      <p>Para obter informações adicionais, por favor, preencha o formulário. Entraremos em contato o mais breve
+      <p class="formulario">Para obter informações adicionais, por favor, preencha o formulário. Entraremos em contato o
+        mais breve
         possível.</p>
 
-      <form>
+
+
+<fieldset>
+  <legend>Formulário de contato</legend>
+  <br>
+      <form action="sucesso.html" method="post">
         <label for="name">Primeiro nome:</label><br>
         <input type="text" id="name" name="name" required><br>
 
@@ -41,16 +47,28 @@
         <label for="sobrenome">Sobrenome:</label><br>
         <input type="text" id="sobrenome" name="sobrenome" required="">
         <br><br>
+        <label for="lista">Como conheceu nossa página:</label>
+        <select id="lista" name="lista">
+          <option value="---"> ----- </option>
+          <option value="Redes socias">Redes socias</option>
+          <option value="Telefone">Telefone</option>
+          <option value="Amigos">Amigos</option>
+          <option value="Outros">Outros</option>
+        </select>
+        <br><br>
         <input type="submit" class="botao-enviar" value="Enviar &#128640;">
       </form>
-
+      <br>
+</fieldset>
     </article>
 
   </section>
 
+
   <footer>
-    <p>Gabriel Martins</p>
+    <p>© Gabriel Martins | 2024</p>
   </footer>
+
 
 </body>
 
