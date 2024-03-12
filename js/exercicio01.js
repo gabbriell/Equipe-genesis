@@ -20,5 +20,5 @@ if (!isNaN(idade)) {
         alert("Com " + idade + " anos " + "você ainda não pode tirar sua carteira de motorista.");
     }
 } else {
-    console.log("Por favor, informe uma idade válida.");
+    alert("Por favor, informe uma idade válida.");
 }
