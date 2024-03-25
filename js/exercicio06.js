@@ -2,15 +2,22 @@
 seja pedido usuário e senha, e informe se o usuário existe ou não existe dentro do array. 
 Pode utilizar um mesclagem entre Arrays e Objects. */
 
+
+
 const usuarios = [
-    { usuario: "gabriel", senha: "1234" }
+  { username: "gabriel", password: "1234" },
+  { username: "pedro", password: "1234" },
+  { username: "gabi", password: "1234" }
 ];
 
 username = prompt("Informa usuário : ");
 password = prompt("Informa a senha : ");
 
 
-function verificarUsuario(username, password) {
-    
-}
+const user = usuarios.find(usuarios => usuarios.username == username && usuarios.password == password);
 
+if (user) {
+  alert("Usuário encontrado!");
+} else {
+  alert("Usuário não encontrado!");
+}
