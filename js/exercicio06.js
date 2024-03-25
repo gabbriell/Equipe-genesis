@@ -17,7 +17,7 @@ password = prompt("Informa a senha : ");
 const user = usuarios.find(usuarios => usuarios.username == username && usuarios.password == password);
 
 if (user) {
-  alert("Usuário encontrado!");
+  alert("Usuário logado com Sucesso!");
 } else {
-  alert("Usuário não encontrado!");
+  alert("Erro ao efetuar o login!");
 }
